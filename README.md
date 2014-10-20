@@ -14,18 +14,13 @@ To get this script to work four directories need to be created for the script to
 4. The next step is to jump to the html directory and create a file called 'links.txt' file (this file is used by all of the html adverts) and this file should be a list of web address that each advert should direct a customer to when that advert is clicked (the list must be separated by placing each element on a new line)
 5. Steps 1-3 need to be done for each format but step 4 only needs to be done once
 
-Below is a graphical representation of the file system for clarity:
 
-advert_rotate — android   — advert directory
-                          — counter directory
-                          — upload directory
-                ipad      — advert directory
-                          — counter directory
-                          — upload directory
-                iphone    — advert directory
-                          — counter directory
-                          — upload directory
-                html      - links.txt
+To clarify the text above each format needs three directorys:
+1. advert directory
+2. counter directory
+3. upload directory
+
+And one directory to be used by all the formats titled HTML for the html files.
 
 
 How file_rotation.py works
